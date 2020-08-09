@@ -11,10 +11,16 @@ print(add(a, b))
 add_result = add(a, b)
 print(f'Result of addition of {a} and {b} =  {add_result}')
 
-def div(x,y):
+
+def div(x, y):
     return x/y
 
-print(div(a,b))
 
-div_result = div(a,b)
+print(div(a, b))
+
+div_result = div(a, b)
 print(f'Result of division of {a} and {b} =  {div_result}')
+
+
+mul = a*b
+print("the product of given numbers is: ", mul)
